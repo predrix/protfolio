@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body> 
+    <header id="header" class="header">
+      <div class="header__logo">
+        <p class="header__logo-text"><span class="header__logo-letter">P</span><span class="header__logo-color">o</span>rtf<span class="header__logo-color">o</span>li<span class="header__logo-color">o</span></p>
+      </div>
+      <div class="header__hamburger">
+        <div class="header__line"></div>
+        <div class="header__line"></div>
+        <div class="header__line"></div>
+      </div>
+      <ul class="header__navbar">
+        <li><a href="#home" class="header__link" href="#home">Home</a></li>
+        <li><a href="#about" class="header__link" href="#about">About</a></li>
+        <li><a href="#skill" class="header__link" href="#skills">Skills</a></li>
+        <li><a href="#project" class="header__link" href="#projects">Projects</a></li>
+        <li><a href="#contact" class="header__link" href="#contact">Contact</a></li>
+      </ul>
+    </header>
+    <section id="home" class="home">
+      <div class="home__text">
+        <p class="home__hello"><span class="home__hello-hi">Hello</span> <br>my name is</p>
+        <h1>Paweł</h1>
+        <div class="home__job">
+          <span class="home__job-static">I'm a</span>
+          <span class="home__job-dynamic">Web Developer</span>
+        </div>
+        <a class="home__hire" href="#">Hire Me</a>
+      </div>
+    </section>
+    <section id="about" class="about">
+      <h2>ABOUT</h2>
+      <div class="container">
+        <div class="row"> 
+          <div class="about__col-1">
+            <img class="hidden" src="img/about-img.png" alt="ja" />
+          </div>
+          <div class="about__col-2">
+            <p class="about__text hidden">
+              I am a Front-End Developer living in Poland. My adventure with programming started when I was 30 years old. I try to keep up with standards. Developing accessible, responsive, optimized websites with SEO and performance in mind is a priority for me. I am really hungry for knowledge. If i dont konw something today i will definitly know it tomorrow. In my free time i'm browsing the Web or playing with my 4 years son.
+          </p>
+          <div class="about__icons">
+            <a class="about__link hidden" href="https://www.linkedin.com/in/pawelpior"><i class="about__fa fa-brands fa-facebook"></i></a>
+            <a class="about__link hidden" href="https://www.facebook.com/profile.php?id=10000221960763"><i class="about__fa fa-brands fa-linkedin-in"></i></a>
+            <a class="about__link hidden" href="https://github.com/predrix?tab=repositories"><i class="about__fa fa-brands fa-github"></i></a>
+          </div>
+          <div class="about__infos">
+            <span class="about__info hidden"><i class="about__ic fa-solid fa-envelope"></i><p> ppawelpiorkowski@gmail.com</p></span>
+            <span class="about__info hidden"><i class="about__ic fa-solid fa-phone"></i><p> +48 883 521 195</p></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skill" class="skills">
+      <div class="container">
+        <div class="row">
+          <h2>SKILLS</h2>
+        </div>
+        <div class="row">
+          <div class="skills__main">
+            <h3>Intermediate</h3>
+            <div class="skills__skill">
+              <span class="skills__pack hidden">
+                <i class="skills__icon fa-brands fa-html5"></i>
+                <p class="skills__text">HTML5</p>
+              </span>
+              <span class="skills__pack hidden">
+                <i class="skills__icon fab fa-css3-alt"></i>
+                <p class="skills__text">CSS3</p>
+              </span>
+              <span class="skills__pack hidden">
+                <i class="skills__icon fab fa-js-square"></i>
+                <p class="skills__text">Javascript</p>
+              </span>
+              <span class="skills__pack hidden">
+                <i class="skills__icon fas fa-mobile-alt"></i>
+                <p class="skills__text">RWD</p>
+              </span>
+            </div>
+          </div>
+          <div class="skills__main">
+            <h3>Basic</h3>
+            <div class="skills__skill">
+              <span class="skills__pack hidden">
+                <i class="skills__icon fab fa-react"></i>
+                <p class="skills__text">React</p>
+              </span>
+              <span class="skills__pack hidden">
+                <i class="skills__icon fa-solid fa-t"></i>
+                <p class="skills__text">Typescript</p>
+              </span>
+            </div>
+          </div>
+          <div class="skills__main">
+            <h3>Additional</h3>
+            <div class="skills__skill">
+              <span class="skills__pack hidden">
+                <i class="skills__icon fab fa-sass"></i>
+                <p class="skills__text">Sass</p>
+              </span>
+              <span class="skills__pack hidden">
+                <i class="skills__icon fa-brands fa-bootstrap"></i>
+                <p class="skills__text">Bootstrap</p>
+              </span>
+              <span class="skills__pack hidden">
+                <i class="skills__icon fa-brands fa-square-git"></i>
+                <p class="skills__text">Git</p>
+              </span>
+              <span class="skills__pack hidden">
+                <i class="skills__icon fab fa-npm"></i>
+                <p class="skills__text">Npm</p>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="project" class="project">
+      <div class="container">
+        <h2>PROJECTS</h2>
+        <div class="projects">
+          <div class="projects__item hidden">
+            <img src="img/pobrane.jpg" alt="cos" />
+            <div class="layer">
+              <h4>Template site</h4>
+              <span class="projects__icons">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"
+                  ><i class="fa-solid fa-up-right-from-square"></i></i
+                ></a>
+              </span>
+            </div>
+          </div>
+          <div class="projects__item hidden">
+            <img src="img/pobrane.jpg" alt="ktos" />
+            <div class="layer">
+              <h4>Javascript game</h4>
+              <span class="projects__icons">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"
+                  ><i class="fa-solid fa-up-right-from-square"></i></i
+                ></a>
+              </span>
+            </div>
+          </div>
+          <div class="projects__item hidden">
+            <img src="img/pobrane.jpg" alt="gdzies" />
+            <div class="layer">
+              <h4>API project</h4>
+              <span class="projects__icons">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"
+                  ><i class="fa-solid fa-up-right-from-square"></i></i
+                ></a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">SEE MORE</a>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>CONTACT</h2>
+        <div class="contact__main">
+          <form class="form" action="https://formsubmit.co/ppawelpiorkowskii@gmail.com" method="POST">
+            <input class="hidden" type="text" name="name" placeholder="Your Name" required>
+            <input class="hidden" type="email" name="email" placeholder="Your Email" required>
+            <textarea class="hidden" name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button class="contact__btn hidden" type="submit">Sumbit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <p class="footer__text">Created by me with love</p>
+      <a href="#home" class="footer__up"><i class="fa-solid fa-upload"></i></a>
+    </footer>
+  </body>
+</html>
